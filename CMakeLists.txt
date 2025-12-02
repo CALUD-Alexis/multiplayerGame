@@ -11,4 +11,6 @@ FetchContent_Declare(
 FetchContent_MakeAvailable(asio)
 
 add_subdirectory(server)
-add_subdirectory(client)
+if(NOT CMAKE_SYSTEM_NAME STREQUAL "Linux")
+    add_subdirectory(client)
+endif()
