@@ -30,9 +30,9 @@ int main() {
         }
 
         char cmd = 0;
-        if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::W)) cmd = 'W';
+        if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Z)) cmd = 'Z';
         if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::S)) cmd = 'S';
-        if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::A)) cmd = 'A';
+        if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Q)) cmd = 'Q';
         if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::D)) cmd = 'D';
 
         // Envoyer la commande
@@ -58,7 +58,7 @@ int main() {
 
         for (const auto& [id, data] : players) {
             sf::RectangleShape square(sf::Vector2f(40, 40));
-            square.setPosition(data.x, data.y);
+            square.setPosition(sf::Vector2f(data.x, data.y));
             square.setFillColor(sf::Color(data.r, data.g, data.b));
 
             // Ajouter un contour pour le joueur local
