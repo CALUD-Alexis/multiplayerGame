@@ -30,10 +30,10 @@ int main() {
         }
 
         char cmd = 0;
-        if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Z)) cmd = 'Z';
-        if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::S)) cmd = 'S';
-        if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Q)) cmd = 'Q';
-        if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::D)) cmd = 'D';
+        if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Up)) cmd = 'W';
+        if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Down)) cmd = 'S';
+        if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Left)) cmd = 'A';
+        if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Right)) cmd = 'D';
 
         // Envoyer la commande
         asio::write(socket, asio::buffer(&cmd, 1));
