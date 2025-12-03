@@ -1,0 +1,8 @@
+/Users/alexisdulac/Documents/Perso/multiGame/build/CMakeFiles/edit_cache.dir
+/Users/alexisdulac/Documents/Perso/multiGame/build/CMakeFiles/rebuild_cache.dir
+/Users/alexisdulac/Documents/Perso/multiGame/build/server/CMakeFiles/server.dir
+/Users/alexisdulac/Documents/Perso/multiGame/build/server/CMakeFiles/edit_cache.dir
+/Users/alexisdulac/Documents/Perso/multiGame/build/server/CMakeFiles/rebuild_cache.dir
+/Users/alexisdulac/Documents/Perso/multiGame/build/client/CMakeFiles/client.dir
+/Users/alexisdulac/Documents/Perso/multiGame/build/client/CMakeFiles/edit_cache.dir
+/Users/alexisdulac/Documents/Perso/multiGame/build/client/CMakeFiles/rebuild_cache.dir

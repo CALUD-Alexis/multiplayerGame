@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/alexisdulac/Documents/Perso/multiGame/build/cmake_install.cmake",
+		"/Users/alexisdulac/Documents/Perso/multiGame/build/server/cmake_install.cmake",
+		"/Users/alexisdulac/Documents/Perso/multiGame/build/client/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
